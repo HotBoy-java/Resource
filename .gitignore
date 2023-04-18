@@ -1,0 +1,5 @@
+.idea/
+.DS_Store
+updateCVE.py
+updateToGit.sh
+definitions.zip
