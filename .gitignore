@@ -2,4 +2,5 @@
 .DS_Store
 updateCVE.py
 updateToGit.sh
-definitions.zip
+updateToGit.bat
+winKbInfo.zip
