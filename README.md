@@ -1,6 +1,6 @@
 # 将需要的文件下载，如果为压缩包，请【解压】
 
-# 将下载/解压后的文件放置在 【%USERPROFILE%.PotatoTool】这个目录下（该目录你可以看到还存在config.json等文件）
+# 将下载/解压后的文件放置在 【%USERPROFILE%/.PotatoTool】这个目录下（该目录你可以看到还存在config.json等文件）
 
 - winKbInfo\[...\].csv
   - 微软kb补丁信息表（不定时更新）
