@@ -26,3 +26,6 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+
+README.md
+scripts/
