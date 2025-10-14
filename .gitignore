@@ -1,11 +1,28 @@
+# IDE
 .idea/
 .vscode/
+
+# macOS
 .DS_Store
+
+# 日志文件
 *.log
-README.md
 auto_update.log
 auto_update_error.log
+
+# 数据文件目录中的大文件和临时文件
 data/*.zip
 data/*.db
 data/*.gzip
-scripts/
+data/*.tmp
+data/*.temp
+
+# JAR 文件（不提交到 Git）
+*.jar
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python

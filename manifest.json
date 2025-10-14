@@ -1,11 +1,11 @@
 {
   "version": "2.0",
-  "lastUpdate": "2025-10-14T00:26:14Z",
+  "lastUpdate": "2025-10-14T10:48:45Z",
   "app": {
     "version": "2.5",
     "releaseDate": "2025-10-14",
     "changelog": [
-      "更新时间: 2025-10-14 00:26:14",
+      "更新时间: 2025-10-14 10:48:45",
       "自动更新 JAR 文件",
       "自动更新资源文件"
     ],
@@ -62,7 +62,7 @@
     {
       "name": "winKbInfo",
       "displayName": "Windows补丁信息库",
-      "version": "20251014",
+      "version": "20251011",
       "required": false,
       "description": "Windows系统安全补丁信息数据库，用于补丁查询",
       "files": {
