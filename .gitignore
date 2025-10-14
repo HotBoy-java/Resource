@@ -1,6 +1,11 @@
 .idea/
+.vscode/
 .DS_Store
-updateCVE.py
-updateToGit.sh
-updateToGit.bat
-winKbInfo.zip
+*.log
+README.md
+auto_update.log
+auto_update_error.log
+data/*.zip
+data/*.db
+data/*.gzip
+scripts/

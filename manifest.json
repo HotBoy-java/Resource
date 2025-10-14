@@ -1,0 +1,84 @@
+{
+  "version": "2.0",
+  "lastUpdate": "2025-10-14T00:26:14Z",
+  "app": {
+    "version": "2.5",
+    "releaseDate": "2025-10-14",
+    "changelog": [
+      "更新时间: 2025-10-14 00:26:14",
+      "自动更新 JAR 文件",
+      "自动更新资源文件"
+    ],
+    "required": false,
+    "files": {
+      "jdk8": {
+        "url": {
+          "github": "https://github.com/HotBoy-java/PotatoTool/releases/download/v2.5/PotatoTool-2.5-jdk8.jar",
+          "mirror": "http://potato.gold:16668/releases/PotatoTool-2.5-jdk8.jar"
+        },
+        "size": 125556522,
+        "checksum": {
+          "sha256": "5b37aaa8c15bc9fc93549a833a2ae3e8445100fdfd818be6897583a2399dd14c",
+          "md5": "7aff07a5dd98d08261733b9a31040b09"
+        }
+      },
+      "jdk11": {
+        "url": {
+          "github": "https://github.com/HotBoy-java/PotatoTool/releases/download/v2.5/PotatoTool-2.5-jdk11+.jar",
+          "mirror": "http://potato.gold:16668/releases/PotatoTool-2.5-jdk11+.jar"
+        },
+        "size": 140085062,
+        "checksum": {
+          "sha256": "e1b27f9ffd8fbc3813c9a945498f49c1b6258beaaf9bb99715e0457b35124731",
+          "md5": "b468cf30c364771b7e44bb809602073f"
+        }
+      }
+    }
+  },
+  "resources": [
+    {
+      "name": "md5",
+      "displayName": "MD5密码库",
+      "version": "20240816",
+      "required": false,
+      "description": "包含17亿条MD5密码数据，用于快速解密常见密码",
+      "files": {
+        "url": {
+          "github": "https://github.com/HotBoy-java/Resource/releases/download/MD5/md5_database.db.gzip",
+          "mirror": "http://potato.gold:16668/resources/md5_database.db.gzip"
+        },
+        "size": 806671652,
+        "compressed": true,
+        "compressionType": "gzip",
+        "uncompressedSize": 1792860160,
+        "checksum": {
+          "sha256": "33131f07b10f205c37c63d56584ea06ebb124e3c98c347f337be9b26f486c594",
+          "md5": "79de7135c7c6470d75ad40a46e920727"
+        },
+        "localPath": "md5_database.db",
+        "minDiskSpace": 1992860160
+      }
+    },
+    {
+      "name": "winKbInfo",
+      "displayName": "Windows补丁信息库",
+      "version": "20251014",
+      "required": false,
+      "description": "Windows系统安全补丁信息数据库，用于补丁查询",
+      "files": {
+        "url": {
+          "github": "https://raw.githubusercontent.com/HotBoy-java/Resource/main/winKbInfo.csv",
+          "mirror": "http://potato.gold:16668/resources/winKbInfo.csv"
+        },
+        "size": 100779858,
+        "compressed": false,
+        "checksum": {
+          "sha256": "014780ba3b9f673afddfb6e69413ed0c831523f49571a60445403414b9cb9007",
+          "md5": "20aef533390a548d63fe7ce77b0c3337"
+        },
+        "localPath": "winKbInfo.csv",
+        "minDiskSpace": 110779858
+      }
+    }
+  ]
+}
