@@ -84,7 +84,7 @@
       "description": "Windows系统安全补丁信息数据库，用于补丁查询",
       "files": {
         "url": {
-          "github": "https://raw.githubusercontent.com/HotBoy-java/Resource/main/winKbInfo.csv",
+          "github": "https://raw.githubusercontent.com/HotBoy-java/Resource/refs/heads/main/data/winKbInfo.csv",
           "mirror": "http://potato.gold:16668/resources/winKbInfo.csv"
         },
         "size": 100779858,
