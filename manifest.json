@@ -2,7 +2,7 @@
   "version": "2.0",
   "lastUpdate": "2025-10-20T11:44:16Z",
   "app": {
-    "version": "2.5.1",
+    "version": "2.5",
     "releaseDate": "2025-10-20",
     "changelog": [
       "支持国际化中英文转换",
@@ -14,8 +14,8 @@
     "files": {
       "jdk8": {
         "url": {
-          "github": "https://github.com/HotBoy-java/PotatoTool/releases/download/ReleaseV2.5.1/PotatoTool-2.5.1-jdk8.jar",
-          "mirror": "http://potato.gold:16668/releases/PotatoTool-2.5.1-jdk8.jar"
+          "github": "https://github.com/HotBoy-java/PotatoTool/releases/download/ReleaseV2.5/PotatoTool-2.5-jdk8.jar",
+          "mirror": "http://potato.gold:16668/releases/PotatoTool-2.5-jdk8.jar"
         },
         "size": 125556522,
         "checksum": {
@@ -25,8 +25,8 @@
       },
       "jdk11": {
         "url": {
-          "github": "https://github.com/HotBoy-java/PotatoTool/releases/download/ReleaseV2.5.1/PotatoTool-2.5.1-jdk11+.jar",
-          "mirror": "http://potato.gold:16668/releases/PotatoTool-2.5.1-jdk11+.jar"
+          "github": "https://github.com/HotBoy-java/PotatoTool/releases/download/ReleaseV2.5/PotatoTool-2.5-jdk11+.jar",
+          "mirror": "http://potato.gold:16668/releases/PotatoTool-2.5-jdk11+.jar"
         },
         "size": 140085062,
         "checksum": {
