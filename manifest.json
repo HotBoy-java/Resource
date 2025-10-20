@@ -1,37 +1,21 @@
 {
   "version": "2.0",
-  "lastUpdate": "2025-10-14T13:43:58Z",
+  "lastUpdate": "2025-10-20T11:44:16Z",
   "app": {
     "version": "2.5.1",
-    "releaseDate": "2025-10-14",
+    "releaseDate": "2025-10-20",
     "changelog": [
       "支持国际化中英文转换",
       "标准化常量提取",
-      "标准化常量提取",
       "统一标准",
-      "优化Dialog界面",
-      "更新优化获取SEO",
-      "修改重试次数，防止check时间过长",
-      "设置界面优化",
-      "配置顺序存储",
-      "AI_Base设置支持",
-      "修复bug：导出功能autoSizeColmn依赖AWT，间接影响了类加载器状态，导致新页面无法渲染",
-      "转换为okhttp",
-      "移动资源+okhttp转换期",
-      "移动资源+okhttp转换期",
-      "移动资源+okhttp转换期",
-      "增强功能",
-      "支持emoji表情",
-      "代码标准化",
-      "代码标准化",
-      "fix bug"
+      "优化Dialog界面"
     ],
     "required": false,
     "files": {
       "jdk8": {
         "url": {
-          "github": "https://github.com/HotBoy-java/PotatoTool/releases/download/v2.5/PotatoTool-2.5-jdk8.jar",
-          "mirror": "http://potato.gold:16668/releases/PotatoTool-2.5-jdk8.jar"
+          "github": "https://github.com/HotBoy-java/PotatoTool/releases/download/ReleaseV2.5.1/PotatoTool-2.5.1-jdk8.jar",
+          "mirror": "http://potato.gold:16668/releases/PotatoTool-2.5.1-jdk8.jar"
         },
         "size": 125556522,
         "checksum": {
@@ -41,8 +25,8 @@
       },
       "jdk11": {
         "url": {
-          "github": "https://github.com/HotBoy-java/PotatoTool/releases/download/v2.5/PotatoTool-2.5-jdk11+.jar",
-          "mirror": "http://potato.gold:16668/releases/PotatoTool-2.5-jdk11+.jar"
+          "github": "https://github.com/HotBoy-java/PotatoTool/releases/download/ReleaseV2.5.1/PotatoTool-2.5.1-jdk11+.jar",
+          "mirror": "http://potato.gold:16668/releases/PotatoTool-2.5.1-jdk11+.jar"
         },
         "size": 140085062,
         "checksum": {
@@ -79,22 +63,22 @@
     {
       "name": "winKbInfo",
       "displayName": "Windows补丁信息库",
-      "version": "20251011",
+      "version": "20251017",
       "required": false,
       "description": "Windows系统安全补丁信息数据库，用于补丁查询",
       "files": {
         "url": {
-          "github": "https://raw.githubusercontent.com/HotBoy-java/Resource/refs/heads/main/data/winKbInfo.csv",
+          "github": "https://raw.githubusercontent.com/HotBoy-java/Resource/main/data/winKbInfo.csv",
           "mirror": "http://potato.gold:16668/resources/winKbInfo.csv"
         },
-        "size": 100779858,
+        "size": 103603466,
         "compressed": false,
         "checksum": {
-          "sha256": "014780ba3b9f673afddfb6e69413ed0c831523f49571a60445403414b9cb9007",
-          "md5": "20aef533390a548d63fe7ce77b0c3337"
+          "sha256": "2f4d994ef87e7b5a42cab92a84950efe911d18549962ae9dc3054fef9b2b54f6",
+          "md5": "765eaaeb7f733163bc3969a16deb4ae7"
         },
         "localPath": "winKbInfo.csv",
-        "minDiskSpace": 110779858
+        "minDiskSpace": 113603466
       }
     }
   ]
